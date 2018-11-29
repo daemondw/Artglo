@@ -16,8 +16,8 @@ body {
 .card {
   width: 350px;
   height: 350px;
-  border: 1px solid;
   position: relative;
+  perspective: 1000px;
 }
 .front, .back {
   position: absolute;
@@ -28,15 +28,22 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.5s;
+  backface-visibility: hidden;
 }
 .front {
-
+  background-color: #fff;
 }
 .back {
-
+  background-color: #b41e1e;
+  transform: rotateY(180deg)
 }
-
-
+.card:hover .front {
+  transform: rotateY(180deg);
+}
+.card:hover .back {
+  transform: rotateY(360deg);
+}
 
 
 
