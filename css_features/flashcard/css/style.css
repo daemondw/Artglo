@@ -30,6 +30,7 @@ body {
   align-items: center;
   transition: 0.5s;
   backface-visibility: hidden;
+  border-radius: 10px;
 }
 .front {
   background-color: #fff;
