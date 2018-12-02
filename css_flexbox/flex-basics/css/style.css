@@ -4,6 +4,7 @@
   background-color: rgba(0, 0, 0, .1);
   justify-content: space-around;
   align-items: center;
+  flex-direction: column-reverse;
 }
 
 .item {
