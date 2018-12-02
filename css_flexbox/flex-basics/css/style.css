@@ -3,8 +3,8 @@
   height: 500px;
   background-color: rgba(0, 0, 0, .1);
   justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-wrap: nowrap;
   align-content: stretch;
 }
 
