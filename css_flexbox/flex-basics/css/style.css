@@ -1,3 +1,25 @@
 .container {
-  
+  display: flex;
+  height: 500px;
+  background-color: rgba(0, 0, 0, .1);
 }
+
+.item {
+  background-color: #ccc;
+  border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
