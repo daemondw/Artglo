@@ -11,9 +11,17 @@
 .item {
   background-color: #ccc;
   border: 1px solid red;
+  flex-basis: 100px;
+  text-align: center;
 }
 
-
+.active {
+  order: 1;
+  background-color: purple;
+  color: #fff;
+  /* flex-grow: 1; */
+  flex-shrink: 1;
+}
 
 
 
