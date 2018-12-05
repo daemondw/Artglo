@@ -12,7 +12,11 @@ body {
   padding: 0;
 }
 .item {
-  border: 1px;
+  height: 100hv;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
   background-color: #aeaeae;
   flex-basis: 25%;
 }
