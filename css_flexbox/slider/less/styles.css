@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+.item {
+  border: 1px;
+  background-color: #aeaeae;
+  flex-basis: 25%;
+}
