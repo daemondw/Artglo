@@ -1,4 +1,7 @@
 body {
-	margin: 0;
-	background-color: #3d385a;
+  margin: 0;
+  background-color: #3d385a;
+}
+.section  {
+  perspective: 1000px;
 }
