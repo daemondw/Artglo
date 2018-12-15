@@ -17,3 +17,9 @@ body {
   transform: rotateX(55deg) rotateZ(-45deg) rotateY(10deg);
   transform-style: preserve-3d;
 }
+.container-origin {
+  transform: rotate(0);
+}
+img {
+  max-width: 100%;
+}
