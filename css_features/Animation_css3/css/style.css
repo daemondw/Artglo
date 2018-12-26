@@ -79,4 +79,8 @@ body {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
 }
-
+.menu-nav_active {
+  transform: scaleX(1) translateX(0%);
+  opacity: 1;
+  visibility: visible;
+}
