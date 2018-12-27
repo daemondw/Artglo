@@ -42,4 +42,11 @@ body {
   transition: 0.2s;
   bottom: 0;
 }
-
+.envelope__top_close {
+    transform: translateY(-110%) rotateX(180deg);
+    z-index: 2;
+}
+.paper_close {
+  transform: translateY(-10%);
+  height: 40px;
+}
