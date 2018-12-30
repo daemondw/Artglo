@@ -43,4 +43,18 @@ body {
 .menu-btn span::after {
   transform: translateY(5px);
 }
+.menu-btn_active span:before {
+  transform: rotate(-45deg);
+  transform-origin: center;
+}
+.menu-btn_active span:after {
+  transform: rotate(45deg);
+  transform-origin: center;
+}
+
+.menu-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
