@@ -112,4 +112,9 @@ body {
 .menu_active a:nth-child(1) {
   transform: translate(150%, 0%);
 }
-
+.menu_active a:nth-child(2) {
+  transform: translate(100%, 100%);
+}
+.menu_active a:nth-child(3) {
+  transform: translate(0%, 150%);
+}
