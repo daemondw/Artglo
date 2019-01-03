@@ -37,3 +37,15 @@ section {
 .menu_active {
   transform: translateX(0%);
 }
+.menu-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+  flex-direction: column;
+}
+.menu-list a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 900;
+}
