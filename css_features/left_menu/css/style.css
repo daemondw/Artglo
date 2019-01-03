@@ -14,3 +14,10 @@ section {
 .contacts {
   background-color: #3498db;
 }
+.portfolio {
+  background-color: #f1c40f;
+}
+.wrapper {
+  position: relative;
+  overflow-x: hidden;
+}
