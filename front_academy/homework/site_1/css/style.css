@@ -1,0 +1,48 @@
+body {
+	background-color: #fff;
+	width: 100%;
+	height: auto;
+	font-family: Tahoma;
+}
+
+.col {
+	color: brown;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 70px 0;
+}
+
+.img {
+	width: 71px;
+	min-height: 85px;
+	display: block;
+    margin: 20px auto;
+
+}
+p {
+	text-align: center;
+	font-size: 16px;
+	font-weight: 700;
+	
+}
+
+/*.col-text {
+	text-align: center;
+	width: 122px;
+	
+}*/
+
+
+
+
+
+
+
+
+
+
