@@ -1,45 +1,57 @@
-.container {
+body {
   background-color: #f9f9f9;
 }
 
-.marketing {
+.container {
+  font-family: "Proxima Nova";
+}
+
+.main-title {
   margin-top: 100px;
   margin-bottom: 125px;
-  font-family: "Proxima Nova";
+}
+
+.title {
   font-size: 36px;
   font-weight: 400;
   text-align: center;
 }
 
-.main {
+.main-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  font-family: "Proxima Nova";
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.content {
+  text-align: center;
 }
 
 .img {
-  width: 100px;
-  margin: 25px 15px;
+  margin-bottom: 25px;
+  margin-right: 15px;
+  width: 263px;
+  height: 210px;
+  background-color: #fff;
 }
 
-.text {
+.text-small {
   font-size: 16px;
   font-weight: 300;
+  margin-bottom: 25px;
 }
 
-.price {
+.text-big {
   font-size: 18px;
   font-weight: 700;
-  margin: 25px;
+  margin-bottom: 25px;
 }
 
 .button {
